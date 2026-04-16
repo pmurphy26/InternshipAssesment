@@ -1,4 +1,4 @@
-import type { Task, TaskStatus } from "@shared/types";
+import type { Task, TaskStatus } from "../types";
 import { TaskCard } from "./Task";
 import { useDroppable } from "@dnd-kit/core";
 import "./Column.css";

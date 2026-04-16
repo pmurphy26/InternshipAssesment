@@ -1,4 +1,4 @@
-import type { Task, TaskStatus } from "@shared/types";
+import type { Task, TaskStatus } from "../types";
 
 export const COLUMNS: { id: TaskStatus; title: string }[] = [
   { id: "todo", title: "To Do" },

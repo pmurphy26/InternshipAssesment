@@ -1,5 +1,5 @@
 import { supabase } from "./supabaseClient";
-import type { Task, TaskStatus } from "@shared/types";
+import type { Task, TaskStatus } from "../types";
 
 export async function fetchTasks(): Promise<Task[]> {
   const { data, error } = await supabase

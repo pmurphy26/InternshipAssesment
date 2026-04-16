@@ -5,7 +5,7 @@ import {
   verticalListSortingStrategy,
 } from "@dnd-kit/sortable";
 import { fetchTasks, updateTaskStatus } from "../helpers/apiCalls";
-import type { Task, TaskStatus } from "@shared/types";
+import type { Task, TaskStatus } from "../types";
 import { Column } from "./Column";
 import { COLUMNS } from "../helpers/constants";
 import "./Board.css";

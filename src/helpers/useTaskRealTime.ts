@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { supabase } from "./supabaseClient";
-import type { Task } from "@shared/types";
+import type { Task } from "../types";
 
 export function useTasksRealtime(
   onChange: (payload: {

@@ -3,7 +3,7 @@ import { KanbanBoard } from "./Board";
 import { CreateTask, EditTask, TaskUI } from "./Task";
 import "./BoardUI.css";
 import { BoardHeader } from "./BoardHeader";
-import type { Task } from "@shared/types";
+import type { Task } from "../types";
 import { createTask, updateTask } from "../helpers/apiCalls";
 
 export function BoardUI() {

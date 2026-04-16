@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
-import type { Task, TaskPriority, TaskStatus } from "@shared/types";
+import type { Task, TaskPriority, TaskStatus } from "../types";
 import "./Task.css";
 import { NumberForm, TextForm } from "../helpers/forms";
 

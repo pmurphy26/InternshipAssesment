@@ -25,17 +25,7 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-
-    /* Shared folder support */
-    "baseUrl": "..",
-    "paths": {
-      "@shared/*": ["shared/*"]
-    }
   },
 
-  "include": ["src", "../shared/types.ts"],
-
-  "references": [
-    { "path": "../shared" }
-  ]
+  "include": ["src"],
 }
