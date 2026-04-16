@@ -1,0 +1,16 @@
+.board-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Tailwind md:grid-cols-4 */
+@media (min-width: 768px) {
+  .board-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

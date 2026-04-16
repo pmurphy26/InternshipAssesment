@@ -1,0 +1,52 @@
+.column-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #386641; 
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  overflow: hidden;
+  min-height: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.column-over {
+  background-color: #90be6d; 
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+    box-sizing: border-box;
+}
+
+.column-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+    box-sizing: border-box;
+}
+
+.column-count {
+  font-size: 0.75rem;
+  color: white;
+  box-sizing: border-box;
+}
+
+.column-tasks {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 85%;
+  min-height: 0;
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+/* vertical spacing between children */
+.column-tasks > * + * {
+  margin-top: 0.5rem;
+}
