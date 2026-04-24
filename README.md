@@ -6,5 +6,4 @@ I really wish that I had more time to work on this. Because of my unfamiliarity 
 
 ## To run
 
-1. Navigate to the frontend directory
-2. npm run dev
+1. npm run dev
